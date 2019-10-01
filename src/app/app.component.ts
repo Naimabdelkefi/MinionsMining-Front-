@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'text-minning';
+  casApp: string;
+
+  changeVal($event) {
+    this.casApp = $event.value;
+  }
 }
+

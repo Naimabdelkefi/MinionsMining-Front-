@@ -1,0 +1,12 @@
+.container-fluid{
+  min-height:100vh;
+}
+
+.textArea{
+  padding-top: 35%;
+  padding-left: 0.5em;
+}
+.import {
+  margin-left: 25%;
+  margin-top: 5%;
+}

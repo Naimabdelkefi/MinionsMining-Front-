@@ -1,0 +1,9 @@
+.title{
+  position: absolute;
+  z-index: 2;
+  color:white;
+  padding-top: 50px;
+  padding-left: 35%;
+  font-family: Georgia;
+  text-align: center;
+}

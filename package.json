@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -20,8 +20,16 @@
     "@angular/platform-browser": "~7.0.0",
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
+    "@types/chart.js": "^2.7.40",
+    "angular-bootstrap-md": "^7.1.1",
+    "bootstrap": "^4.2.1",
+    "chart.js": "^2.7.2",
     "core-js": "^2.5.4",
-    "rxjs": "~6.3.3",
+    "font-awesome": "~4.7.x",
+    "hammerjs": "~2.0.8",
+    "jquery": "^3.3.1",
+    "rxjs": "^6.3.3",
+    "sweetalert2": "^7.33.1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

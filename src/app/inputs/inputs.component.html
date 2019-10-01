@@ -1,0 +1,19 @@
+<div class="container-fluid">
+
+  <div class="row align-items-center textArea">
+    <div class="col-12 col-md-10">
+      <textarea type="text" id="form7" rows="4"  [(ngModel)] = "str" class="md-textarea md-textarea-auto form-control" mdbInputDirective></textarea>
+    </div>
+    <div class="col-6 col-md-2">
+      <button type="button" class="btn btn-warning" (click)="onSubmitGo()">Go!</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="import">
+    <label class="btn btn-warning" >
+      <input type="file" style="display: none;" multiple="false" (click)="onFileChange($event)">
+      <span >Or import your text file Here</span>
+    </label>
+    </div>
+  </div>
+</div>
